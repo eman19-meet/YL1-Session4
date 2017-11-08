@@ -1,4 +1,4 @@
-תclass Animal(object):
+ class Animal(object):
 	def_init_(self,sound,name,age,favorite_color):
 		self.sound=sound
 		self.name=name
