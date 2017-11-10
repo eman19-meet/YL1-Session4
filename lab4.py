@@ -9,7 +9,7 @@
 		print("Yummy!! "+self.name+" is eating "+food)
 
 	def description(self):
-		print(self.name+" is "+self.age+" years old, and loves the collor "+self.favorate_color)
+		print(self.name+" is "+self.age+" years old, and loves the color "+self.favorate_color)
 
 	def make_sound(self):
 		print(self.sound *3)
@@ -21,7 +21,7 @@ a = Animal("haha","cat", 4, yellow)
 a.eat("meat")
 a.description()
 a.make_sound()
-a.sound_X()
+a.sound_X(5)
 
 class Person(object):	
 	def_init_(self,name,age,city,gender,favorate_brakefast,favorate_sport):
@@ -43,7 +43,7 @@ p.sport()
 
 class Song(object):
 	def_init_(self,lyrics[]):
-		self.lyrics[]=lyrics[]
+		self.lyrics=lyrics
 		
 	#not sure about the sing_me_a_song !!!!
 	def sing_me_a_song(self):
